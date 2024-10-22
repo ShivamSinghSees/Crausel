@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.App {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  flex-direction: column;
+  overflow: hidden;
+}
+.crousel-wraper {
+  height: 300px;
+  width: 100%;
+  display: flex;
+  overflow: hidden;
+  scroll-behavior: smooth;
+}
+
+img {
+  height: 300px;
+  width: 100vw;
+}
+
+.controls {
+  height: 100px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  gap: 20px;
+}
+.controls button {
+  all: unset;
+  color: white;
+  padding: 5px 20px;
+  margin-top: 20px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.ctr_btn {
+  background-color: gray !important ;
+}
